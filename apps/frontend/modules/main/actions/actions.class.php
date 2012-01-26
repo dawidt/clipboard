@@ -27,9 +27,13 @@ class MainActions extends sfActions
   {
 
   }
-  public function executeContact(sfWebRequest $request)
+  public function executeOserwisie(sfWebRequest $request)
   {
 
+  }
+  public function executeContact(sfWebRequest $request)
+  {
+      
   }
   
 }

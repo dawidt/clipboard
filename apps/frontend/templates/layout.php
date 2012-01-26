@@ -19,7 +19,7 @@
             <nav>
                 <ul>
                     <li><a href="<?php echo url_for('main/show')?>">Home</a></li>
-                    <li><a href="#">Regulamin</a></li>
+                    <li><a href="<?php echo url_for('main/regulamin')?>">Regulamin</a></li>
                     <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="<?php echo url_for('main/contact')?>">Kontakt</a></li>
                 </ul>
